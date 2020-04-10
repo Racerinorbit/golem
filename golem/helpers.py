@@ -14,7 +14,7 @@ def random_float(min=1.0, max=100.0, decimals=None):
     return randomfloat
 
 
-def random_int(min=1, max=100):
+def random_int(min=10, max=100):
     """Generate a random integer between min and max"""
     return random.randint(min, max)
 
